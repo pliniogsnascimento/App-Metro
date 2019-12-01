@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:http/http.dart';
 import 'package:train_station/screens/homeScreen.dart';
 import 'package:train_station/screens/likedStationsScreen.dart';
+import 'package:train_station/screens/lineScreen.dart';
 
 import 'screens/stationScreen.dart';
 
@@ -18,7 +19,9 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/likedStations': (context) => LikedStationsScreen()
+        '/likedStations': (context) => LikedStationsScreen(),
+        '/stationsScreen': (context) => StationScreen(),
+        '/lineScreen': (context) => LineScreen()
       },
       home: Container(
         decoration: BoxDecoration(

@@ -176,7 +176,7 @@ class HomeScreenState extends State<HomeScreen> {
   }
 
   _seeStations(BuildContext context) {
-    Navigator.pushNamed(context, '/likedStations');
+    Navigator.pushNamed(context, '/lineScreen');
   }
 }
 

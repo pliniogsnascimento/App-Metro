@@ -35,11 +35,16 @@ class StationScreenState extends State<StationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Wrap(
-          children: <Widget>[
-            HeaderBackButton('Estação Vila Prudent'),
-            // Text("e"),
-          ],
+        title: Text("Estação Vila Prudente"),
+        leading: IconButton(
+          icon: Icon(
+            Icons.keyboard_arrow_left,
+            color: Colors.white,
+            size: 30
+          ),
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
         backgroundColor: Colors.blue,
       ),

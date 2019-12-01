@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class LikedStationsScreenState extends State<LikedStationsScreen> {
+class LineScreenState extends State<LineScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -59,7 +59,7 @@ class LikedStationsScreenState extends State<LikedStationsScreen> {
             onPressed: () { Navigator.pop(context); },
           ),
           Text(
-            "Estações salvas",
+            "Linha Azul",
             style: TextStyle(
               color: Colors.white,
               fontSize: 26.0,
@@ -85,8 +85,8 @@ class LikedStationsScreenState extends State<LikedStationsScreen> {
 
 }
 
-class LikedStationsScreen extends StatefulWidget {
+class LineScreen extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => LikedStationsScreenState();
+  State<StatefulWidget> createState() => LineScreenState();
 }
 

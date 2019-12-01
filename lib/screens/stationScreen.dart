@@ -35,7 +35,13 @@ class StationScreenState extends State<StationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Estação Vila Prudente"),
+        title: Wrap(
+          children: <Widget>[
+            HeaderBackButton('Estação Vila Prudent'),
+            // Text("e"),
+          ],
+        ),
+        backgroundColor: Colors.blue,
       ),
       body: GoogleMap(
         mapType: MapType.normal,
@@ -53,18 +59,18 @@ class StationScreenState extends State<StationScreen> {
     );
   }
 
-  void _createMarkers() {
-    setState(() {
-      _markers.add(Marker(
-        markerId: MarkerId("1"),
-        position: LatLng(-23.5843897, -46.5819115),
-        infoWindow: InfoWindow(
-          title: "Estação Vila Prudente"
-        ),
-        icon: BitmapDescriptor.defaultMarker
-      ));
-    });
-  }
+  // void _createMarkers() {
+  //   setState(() {
+  //     _markers.add(Marker(
+  //       markerId: MarkerId("1"),
+  //       position: LatLng(-23.5843897, -46.5819115),
+  //       infoWindow: InfoWindow(
+  //         title: "Estação Vila Prudente"
+  //       ),
+  //       icon: BitmapDescriptor.defaultMarker
+  //     ));
+  //   });
+  // }
   
 }
 

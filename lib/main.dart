@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:http/http.dart';
 import 'package:train_station/screens/homeScreen.dart';
+import 'package:train_station/screens/likedStationsScreen.dart';
 
 import 'screens/stationScreen.dart';
 
@@ -15,6 +16,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         primaryColor: Colors.green
       ),
+      initialRoute: '/',
+      routes: {
+        '/likedStations': (context) => LikedStationsScreen()
+      },
       home: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -27,10 +32,7 @@ class MyApp extends StatelessWidget {
             tileMode: TileMode.clamp
           )
         ),
-        child: Scaffold(
-          backgroundColor: Colors.transparent,
-          body: StationScreen(),
-        ),
+        child: HomeScreen(),
       )
     );
   }

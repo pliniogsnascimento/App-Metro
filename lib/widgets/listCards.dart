@@ -5,8 +5,8 @@ import 'package:train_station/models/line.dart';
 class ListCards extends StatelessWidget {
 
   final List<Line> lines;
-
-  const ListCards(this.lines);
+  final void Function(BuildContext) callback;
+  const ListCards(this.lines, this.callback);
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class ListCards extends StatelessWidget {
                       children: <Widget>[
                         FlatButton(
                           child: const Text('Estações'),
-                          onPressed: () { /* ... */ },
+                          onPressed: () { this.callback(context); },
                         ),
                         FlatButton(
                           child: const Text('Salvar'),

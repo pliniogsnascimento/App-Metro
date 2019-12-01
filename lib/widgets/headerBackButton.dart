@@ -18,7 +18,9 @@ class HeaderBackButton extends StatelessWidget {
             color: Colors.white,
             size: 30
           ),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
         Text(
           this.title,

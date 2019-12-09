@@ -1,12 +1,12 @@
 import 'package:meta/meta.dart';
 
 class Station {
-  final String id;
-  final String name;
-  final double latitude;
-  final double longitude;
-  final String address;
-  final String phoneNumber;
+  String id;
+  String name;
+  double latitude;
+  double longitude;
+  String address;
+  String phoneNumber;
 
   Station(
     {

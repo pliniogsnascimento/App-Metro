@@ -1,7 +1,12 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:train_station/models/line.dart';
 import 'package:train_station/models/station.dart';
+import 'package:train_station/models/stations.dart';
+import 'package:train_station/screens/lineScreen.dart';
 import 'package:train_station/widgets/listCards.dart';
 
 class HomeScreenState extends State<HomeScreen> {
@@ -20,62 +25,64 @@ class HomeScreenState extends State<HomeScreen> {
     'Vila Mariana'
   ];
 
-  List<Line> _lines = <Line>[
-    Line(
-      name: 'Azul',
-      image: 'assets/metro.jpg',
-      stations: <Station>[
-        Station(name: 'Vila Prudente'),
-        Station(name: 'Metrô Tamanduateí'),
-        Station(name: 'Sacomã'),
-        Station(name: 'Alto do Ipiranga'),
-        Station(name: 'Santos Imigrantes'),
-        Station(name: 'Chácara Klabin'),
-        Station(name: 'Ana Rosa'),
-        Station(name: 'Paraíso'),
-        Station(name: 'Brigadeiro'),
-        Station(name: 'Trianon MASP'),
-        Station(name: 'Sei lá'),
-        Station(name: 'Vila Mariana')
-      ],
-    ),
-    Line(
-      name: 'Amarela', 
-      image: 'assets/metro.jpg',
-      stations: <Station>[
-        Station(name: 'Vila Prudente'),
-        Station(name: 'Metrô Tamanduateí'),
-        Station(name: 'Sacomã'),
-        Station(name: 'Alto do Ipiranga'),
-        Station(name: 'Santos Imigrantes'),
-        Station(name: 'Chácara Klabin'),
-        Station(name: 'Ana Rosa'),
-        Station(name: 'Paraíso'),
-        Station(name: 'Brigadeiro'),
-        Station(name: 'Trianon MASP'),
-        Station(name: 'Sei lá'),
-        Station(name: 'Vila Mariana')
-      ]
-    ),
-    Line(
-      name: 'Verde', 
-      image: 'assets/metro.jpg',
-      stations: <Station>[
-        Station(name: 'Vila Prudente'),
-        Station(name: 'Metrô Tamanduateí'),
-        Station(name: 'Sacomã'),
-        Station(name: 'Alto do Ipiranga'),
-        Station(name: 'Santos Imigrantes'),
-        Station(name: 'Chácara Klabin'),
-        Station(name: 'Ana Rosa'),
-        Station(name: 'Paraíso'),
-        Station(name: 'Brigadeiro'),
-        Station(name: 'Trianon MASP'),
-        Station(name: 'Sei lá'),
-        Station(name: 'Vila Mariana')
-      ]
-    )
-  ];
+  List<Line> _lines = lines; 
+
+  // List<Line> _lines = <Line>[
+  //   Line(
+  //     name: 'Azul',
+  //     image: 'assets/metro.jpg',
+  //     stations: <Station>[
+  //       Station(name: 'Vila Prudente'),
+  //       Station(name: 'Metrô Tamanduateí'),
+  //       Station(name: 'Sacomã'),
+  //       Station(name: 'Alto do Ipiranga'),
+  //       Station(name: 'Santos Imigrantes'),
+  //       Station(name: 'Chácara Klabin'),
+  //       Station(name: 'Ana Rosa'),
+  //       Station(name: 'Paraíso'),
+  //       Station(name: 'Brigadeiro'),
+  //       Station(name: 'Trianon MASP'),
+  //       Station(name: 'Sei lá'),
+  //       Station(name: 'Vila Mariana')
+  //     ],
+  //   ),
+  //   Line(
+  //     name: 'Amarela', 
+  //     image: 'assets/metro.jpg',
+  //     stations: <Station>[
+  //       Station(name: 'Vila Prudente'),
+  //       Station(name: 'Metrô Tamanduateí'),
+  //       Station(name: 'Sacomã'),
+  //       Station(name: 'Alto do Ipiranga'),
+  //       Station(name: 'Santos Imigrantes'),
+  //       Station(name: 'Chácara Klabin'),
+  //       Station(name: 'Ana Rosa'),
+  //       Station(name: 'Paraíso'),
+  //       Station(name: 'Brigadeiro'),
+  //       Station(name: 'Trianon MASP'),
+  //       Station(name: 'Sei lá'),
+  //       Station(name: 'Vila Mariana')
+  //     ]
+  //   ),
+  //   Line(
+  //     name: 'Verde', 
+  //     image: 'assets/metro.jpg',
+  //     stations: <Station>[
+  //       Station(name: 'Vila Prudente'),
+  //       Station(name: 'Metrô Tamanduateí'),
+  //       Station(name: 'Sacomã'),
+  //       Station(name: 'Alto do Ipiranga'),
+  //       Station(name: 'Santos Imigrantes'),
+  //       Station(name: 'Chácara Klabin'),
+  //       Station(name: 'Ana Rosa'),
+  //       Station(name: 'Paraíso'),
+  //       Station(name: 'Brigadeiro'),
+  //       Station(name: 'Trianon MASP'),
+  //       Station(name: 'Sei lá'),
+  //       Station(name: 'Vila Mariana')
+  //     ]
+  //   )
+  // ];
 
   Widget build(BuildContext context) {
     return Scaffold(
@@ -107,16 +114,16 @@ class HomeScreenState extends State<HomeScreen> {
                     ]
                   )
                 ),
-                IconButton(
-                  icon: Icon(
-                    Icons.dehaze,
-                    color: Colors.white,
-                    size: 30.0,
-                  ),
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/likedStations');
-                  },
-                )
+                // IconButton(
+                //   icon: Icon(
+                //     Icons.dehaze,
+                //     color: Colors.white,
+                //     size: 30.0,
+                //   ),
+                //   onPressed: () {
+                //     Navigator.pushNamed(context, '/likedStations');
+                //   },
+                // )
               ],
             ),
           ),
@@ -175,9 +182,16 @@ class HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  _seeStations(BuildContext context) {
-    Navigator.pushNamed(context, '/lineScreen');
+  _seeStations(BuildContext context, Line line) {
+    // Navigator.pushNamed(context, '/lineScreen');
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => LineScreen(line: line)
+      )
+    );
   }
+
 }
 
 class HomeScreen extends StatefulWidget {

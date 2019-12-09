@@ -1,0 +1,119 @@
+[
+    {
+        "estacaoId": "158",
+        "nome": "Brás",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "117",
+        "nome": "Capuava",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "119",
+        "nome": "Guapituba",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "110",
+        "nome": "Ipiranga",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "118",
+        "nome": "Mauá",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "109",
+        "nome": "Mooca",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "114",
+        "nome": "Prefeito Saladino",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "120",
+        "nome": "Ribeirão Pires",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "121",
+        "nome": "Rio Grande da Serra",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "181",
+        "nome": "Santo André",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "112",
+        "nome": "São Caetano",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "111",
+        "nome": "Tamanduateí",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "113",
+        "nome": "Utinga",
+        "ordem": "10",
+        "linhaId": "7",
+        "linha": "10-Turquesa (Luz-Rio Grande da Serra)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     }
+]

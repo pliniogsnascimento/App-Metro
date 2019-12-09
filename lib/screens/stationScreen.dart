@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:train_station/models/station.dart';
 import 'package:train_station/widgets/headerBackButton.dart';
 
 class StationScreenState extends State<StationScreen> {
@@ -33,9 +34,40 @@ class StationScreenState extends State<StationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+
+    List<Widget> children = new List();
+
+    children.add(_buildBackground(context));
+    children.add(_buildCard());
+        
+    return MaterialApp(
+      home: Stack(
+        children: children,
+      ),
+    );
+        
+            
+  }
+        
+  Set<Marker> _createMarkers() {
+    return {
+      Marker(
+          markerId: MarkerId("1"),
+          position: LatLng(widget.station.latitude, widget.station.longitude),
+          infoWindow: InfoWindow(
+            title: widget.station.name,
+            onTap: () { }   
+          ),
+          icon: BitmapDescriptor.defaultMarker
+        )
+      };
+  }
+        
+  _buildBackground(context) {
+    return 
+    Scaffold(
       appBar: AppBar(
-        title: Text("Estação Vila Prudente"),
+        title: Text(widget.station.name),
         leading: IconButton(
           icon: Icon(
             Icons.keyboard_arrow_left,
@@ -50,12 +82,17 @@ class StationScreenState extends State<StationScreen> {
       ),
       body: GoogleMap(
         mapType: MapType.normal,
-        markers: _markers,
-        initialCameraPosition: _kGooglePlex,
+        markers: _createMarkers(),
+        initialCameraPosition: CameraPosition(
+          target: LatLng(widget.station.latitude, widget.station.longitude),
+          zoom: 14.4746,
+        ),
         onMapCreated: (GoogleMapController controller) {
           _controller.complete(controller);
         },
+
       ),
+
       // floatingActionButton: FloatingActionButton.extended(
       //   onPressed: _createMarkers,
       //   label: Text('Create marker'),
@@ -64,22 +101,40 @@ class StationScreenState extends State<StationScreen> {
     );
   }
 
-  // void _createMarkers() {
-  //   setState(() {
-  //     _markers.add(Marker(
-  //       markerId: MarkerId("1"),
-  //       position: LatLng(-23.5843897, -46.5819115),
-  //       infoWindow: InfoWindow(
-  //         title: "Estação Vila Prudente"
-  //       ),
-  //       icon: BitmapDescriptor.defaultMarker
-  //     ));
-  //   });
-  // }
-  
+  _buildCard() {
+    return Container(
+      margin: EdgeInsets.only(
+        top: 580.0
+      ),
+      child: SizedBox(
+        height: 100,
+        child: Card(
+          child: Column(
+            children: [
+              ListTile(
+                title: Text(widget.station.address,
+                    style: TextStyle(fontWeight: FontWeight.w500)),
+                subtitle: Text(widget.station.name),
+                leading: Icon(
+                  Icons.restaurant_menu,
+                  color: Colors.blue[500],
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
+    );
+    
+  }
 }
 
 class StationScreen extends StatefulWidget {
+
+  Station station;
+
+  StationScreen({@required this.station});
+
   @override
   State<StatefulWidget> createState() => StationScreenState();
 

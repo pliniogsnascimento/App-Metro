@@ -1,0 +1,119 @@
+[
+    {
+        "estacaoId": "129",
+        "nome": "Aracaré",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "161",
+        "nome": "Brás",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "163",
+        "nome": "Calmon Viana",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "124",
+        "nome": "Comendador Ermelino",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "123",
+        "nome": "Engenheiro Goulart",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "127",
+        "nome": "Engenheiro Manoel Feio",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "126",
+        "nome": "Itaim Paulista",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "128",
+        "nome": "Itaquaquecetuba",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "199",
+        "nome": "Jardim Helena-Vila Mara",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "207",
+        "nome": "Jardim Romano",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "125",
+        "nome": "São Miguel Paulista",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "184",
+        "nome": "Tatuapé",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     },
+     {
+        "estacaoId": "196",
+        "nome": "USP Leste",
+        "ordem": "12",
+        "linhaId": "9",
+        "linha": "12-Safira (Brás-Calmon Viana)",
+        "tipoId": "2",
+        "tipo": "CPTM"
+     }
+]

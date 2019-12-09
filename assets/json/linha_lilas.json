@@ -1,0 +1,155 @@
+[
+    {
+        "estacaoId": "350",
+        "nome": "AACD-Servidor",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "339",
+        "nome": "Adolfo Pinheiro",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "343",
+        "nome": "Alto da Boa Vista",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "344",
+        "nome": "Borba Gato",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "345",
+        "nome": "Brooklin",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "359",
+        "nome": "Campo Belo",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "55",
+        "nome": "Campo Limpo",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "54",
+        "nome": "Capão Redondo",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "353",
+        "nome": "Chácara Klabin",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "348",
+        "nome": "Eucaliptos",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "57",
+        "nome": "Giovanni Gronchi",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "351",
+        "nome": "Hospital São Paulo",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "59",
+        "nome": "Largo 13",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "349",
+        "nome": "Moema",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "352",
+        "nome": "Santa Cruz",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "179",
+        "nome": "Santo Amaro",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     },
+     {
+        "estacaoId": "56",
+        "nome": "Vila das Belezas",
+        "ordem": "05",
+        "linhaId": "10",
+        "linha": "5-Lilás",
+        "tipoId": "1",
+        "tipo": "Metrô"
+     }
+]

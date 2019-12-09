@@ -1,0 +1,236 @@
+[
+    {
+       "estacaoId": "367",
+       "nome": "Aeroporto-Guarulhos-Jade",
+       "ordem": "13",
+       "linhaId": "20",
+       "linha": "13-Jade",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "362",
+       "nome": "Engenheiro Goulart-Jade",
+       "ordem": "13",
+       "linhaId": "20",
+       "linha": "13-Jade",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "366",
+       "nome": "Guarulhos-CECAP-Jade",
+       "ordem": "13",
+       "linhaId": "20",
+       "linha": "13-Jade",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "370",
+       "nome": "Aeroporto-Guarulhos-JadeServicoConect",
+       "ordem": "13",
+       "linhaId": "21",
+       "linha": "13-Jade Serviço Conect",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "364",
+       "nome": "Brás-JadeServicoConect",
+       "ordem": "13",
+       "linhaId": "21",
+       "linha": "13-Jade Serviço Conect",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "368",
+       "nome": "Engenheiro Goulart-JadeServicoConect",
+       "ordem": "13",
+       "linhaId": "21",
+       "linha": "13-Jade Serviço Conect",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "369",
+       "nome": "Guarulhos-CECAP-JadeServicoConect",
+       "ordem": "13",
+       "linhaId": "21",
+       "linha": "13-Jade Serviço Conect",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "365",
+       "nome": "Tatuapé-JadeServicoConect",
+       "ordem": "13",
+       "linhaId": "21",
+       "linha": "13-Jade Serviço Conect",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "360",
+       "nome": "Aeroporto-Guarulhos-Airport-Express",
+       "ordem": "13",
+       "linhaId": "19",
+       "linha": "13-Jade-Airport Express",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "361",
+       "nome": "Luz-Airport-Express",
+       "ordem": "13",
+       "linhaId": "19",
+       "linha": "13-Jade-Airport Express",
+       "tipoId": "2",
+       "tipo": "CPTM"
+    },
+    {
+       "estacaoId": "356",
+       "nome": "Camilo Haddad",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "371",
+       "nome": "Jardim Planalto",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "341",
+       "nome": "Oratório",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "355",
+       "nome": "São Lucas",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "342",
+       "nome": "Vila Prudente",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "357",
+       "nome": "Vila Tolstói",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "358",
+       "nome": "Vila União",
+       "ordem": "15",
+       "linhaId": "18",
+       "linha": "15-Prata",
+       "tipoId": "1",
+       "tipo": "Metrô"
+    },
+    {
+       "estacaoId": "142",
+       "nome": "Diadema",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "145",
+       "nome": "Ferrazópolis",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "337",
+       "nome": "Jabaquara",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "336",
+       "nome": "Morumbi",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "143",
+       "nome": "Piraporinha",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "180",
+       "nome": "Santo André",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "144",
+       "nome": "São Bernardo",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "147",
+       "nome": "São Mateus",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    },
+    {
+       "estacaoId": "146",
+       "nome": "Sônia Maria",
+       "ordem": "999",
+       "linhaId": "11",
+       "linha": "EMTU",
+       "tipoId": "3",
+       "tipo": "EMTU"
+    }
+ ]

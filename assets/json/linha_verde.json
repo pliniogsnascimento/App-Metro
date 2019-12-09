@@ -1,0 +1,128 @@
+[
+   {
+      "estacaoId": "151",
+      "nome": "Alto do Ipiranga",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "153",
+      "nome": "Ana Rosa",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "48",
+      "nome": "Brigadeiro",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "149",
+      "nome": "ChacaraKlabin",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "51",
+      "nome": "Clínicas",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "50",
+      "nome": "Consolação",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "175",
+      "nome": "Paraíso",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "52",
+      "nome": "S. N. Sra. De Fátima-Sumaré",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "200",
+      "nome": "Sacomã",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "150",
+      "nome": "Santos-Imigrantes",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "201",
+      "nome": "Tamanduateí",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "49",
+      "nome": "Trianon-Masp",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "188",
+      "nome": "Vila Madalena",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   },
+   {
+      "estacaoId": "202",
+      "nome": "Vila Prudente",
+      "ordem": "02",
+      "linhaId": "2",
+      "linha": "2-Verde",
+      "tipoId": "1",
+      "tipo": "Metrô"
+   }
+]
